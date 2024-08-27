@@ -40,12 +40,13 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     function handleJSONData(data) {
         if (data && data.questions) {
-            // Aquí puedes integrar las preguntas cargadas en tu flujo de cuestionario
-            startQuiz(data.questions);
+            questions = data.questions; // Actualiza el arreglo `questions`
+            startQuiz();
         } else {
             alert("El archivo JSON no tiene el formato correcto.");
         }
     }
+    
         
     function fetchDeck(deckName) {
         fetch(`data/decks/${deckName}.json`)
@@ -60,9 +61,11 @@ document.addEventListener("DOMContentLoaded", function() {
     function startQuiz() {
         document.getElementById("deck-selection").style.display = "none";
         quizContainer.style.display = "block";
-        showQuestion();
+        currentQuestionIndex = 0; // Asegúrate de que el índice de preguntas se reinicie
+        score = 0; // Asegúrate de reiniciar el puntaje
+        showQuestion(); // Comienza a mostrar las preguntas
     }
-
+    
     function showQuestion() {
         const currentQuestion = questions[currentQuestionIndex];
         questionElement.textContent = currentQuestion.question;
