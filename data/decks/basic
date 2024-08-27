@@ -1,0 +1,19 @@
+{
+    "questions": [
+        {
+            "question": "¿Cuál es la capital de Francia?",
+            "options": ["Berlín", "Madrid", "París", "Lisboa"],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál es la fórmula química del agua?",
+            "options": ["H2O", "CO2", "NaCl", "O2"],
+            "answer": 0
+        },
+        {
+            "question": "¿Cuál es el planeta más cercano al sol?",
+            "options": ["Venus", "Marte", "Mercurio", "Júpiter"],
+            "answer": 2
+        }
+    ]
+}

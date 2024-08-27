@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación de Preguntas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Evaluación de Preguntas</h1>
+        <div id="deck-selection">
+            <select id="deck-select">
+                <option value="">Selecciona un mazo...</option>
+                <option value="basic">Mazo Básico</option>
+                <!-- Agrega más opciones si tienes otros mazos -->
+            </select>
+            <button id="start-button">Iniciar</button>
+        </div>
+        
+        <div id="quiz-container" style="display: none;">
+            <div id="question"></div>
+            <div id="options"></div>
+            <button id="next-button" style="display: none;">Siguiente</button>
+        </div>
+        
+        <div id="results" style="display: none;"></div>
+    </div>
+
+    <script src="js/test.js"></script>
+</body>
+</html>
