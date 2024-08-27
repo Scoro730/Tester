@@ -21,6 +21,32 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
+    document.getElementById('file-input').addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    // Procesar el JSON
+                    handleJSONData(data);
+                } catch (error) {
+                    console.error("Error al procesar el archivo JSON:", error);
+                    alert("El archivo seleccionado no es un JSON válido.");
+                }
+            };
+            reader.readAsText(file);
+        }
+    });
+    function handleJSONData(data) {
+        if (data && data.questions) {
+            // Aquí puedes integrar las preguntas cargadas en tu flujo de cuestionario
+            startQuiz(data.questions);
+        } else {
+            alert("El archivo JSON no tiene el formato correcto.");
+        }
+    }
+        
     function fetchDeck(deckName) {
         fetch(`data/decks/${deckName}.json`)
             .then(response => response.json())
