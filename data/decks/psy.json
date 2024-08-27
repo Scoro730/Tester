@@ -1,0 +1,29 @@
+{
+    "questions": [
+        {
+            "question": "¿Qué psicólogo es conocido por su teoría del desarrollo cognitivo?",
+            "options": ["Sigmund Freud", "B.F. Skinner", "Jean Piaget", "Carl Rogers"],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál de los siguientes es un ejemplo de un reforzador positivo?",
+            "options": ["Quitar un castigo", "Repetir un examen", "Entregar un premio", "Ignorar un mal comportamiento"],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué concepto introdujo Carl Rogers en su enfoque terapéutico?",
+            "options": ["Condicionamiento clásico", "Inconsciente colectivo", "Autoactualización", "Refuerzo negativo"],
+            "answer": 2
+        },
+        {
+            "question": "¿Cuál es el término para el tipo de memoria que almacena información por unos pocos segundos?",
+            "options": ["Memoria a corto plazo", "Memoria a largo plazo", "Memoria sensorial", "Memoria de trabajo"],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué trastorno psicológico se caracteriza por episodios de manía y depresión?",
+            "options": ["Trastorno de ansiedad generalizada", "Trastorno bipolar", "Esquizofrenia", "Trastorno obsesivo-compulsivo"],
+            "answer": 1
+        }
+    ]
+}
