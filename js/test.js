@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
             reader.onload = function(e) {
                 try {
                     const data = JSON.parse(e.target.result);
-                    // Procesar el JSON
                     handleJSONData(data);
                 } catch (error) {
                     console.error("Error al procesar el archivo JSON:", error);
@@ -38,21 +37,21 @@ document.addEventListener("DOMContentLoaded", function() {
             reader.readAsText(file);
         }
     });
+
     function handleJSONData(data) {
         if (data && data.questions) {
-            questions = data.questions; // Actualiza el arreglo `questions`
+            questions = shuffleArray(data.questions); // Baraja las preguntas
             startQuiz();
         } else {
             alert("El archivo JSON no tiene el formato correcto.");
         }
     }
-    
-        
+
     function fetchDeck(deckName) {
         fetch(`data/decks/${deckName}.json`)
             .then(response => response.json())
             .then(data => {
-                questions = data.questions;
+                questions = shuffleArray(data.questions); // Baraja las preguntas
                 startQuiz();
             })
             .catch(error => console.error("Error al cargar el mazo:", error));
@@ -65,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
         score = 0; // Asegúrate de reiniciar el puntaje
         showQuestion(); // Comienza a mostrar las preguntas
     }
-    
+
     function showQuestion() {
         const currentQuestion = questions[currentQuestionIndex];
         questionElement.textContent = currentQuestion.question;
@@ -75,6 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
         currentQuestion.options.forEach((option, index) => {
             const button = document.createElement('button');
             button.textContent = option;
+            button.classList.add('option-button'); // Asegúrate de que tenga la clase correcta
             button.addEventListener('click', function() {
                 if (index === currentQuestion.answer) {
                     score++;
@@ -94,5 +94,14 @@ document.addEventListener("DOMContentLoaded", function() {
         quizContainer.style.display = "none";
         resultsElement.style.display = "block";
         resultsElement.textContent = `Puntaje: ${score} / ${questions.length} (${(score / questions.length) * 100}%)`;
+    }
+
+    // Función para barajar el array de preguntas
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
     }
 });

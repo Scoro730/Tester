@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "¿Cuál es la causa más frecuente de insuficiencia cardíaca en países desarrollados?",
+            "options": ["Hipertensión arterial", "Cardiopatía isquémica", "Miocardiopatía dilatada", "Valvulopatía mitral"],
+            "answer": 1
+        },
+        {
+            "question": "Un paciente con infarto agudo de miocardio llega al servicio de urgencias. ¿Cuál es la primera medida que se debe realizar?",
+            "options": ["Administrar aspirina", "Administrar oxígeno", "Realizar un electrocardiograma", "Administrar morfina"],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué hallazgo electrocardiográfico es característico de la pericarditis aguda?",
+            "options": ["Elevación difusa del ST", "Depresión del ST en derivaciones precordiales", "Ondas Q patológicas", "Bloqueo AV de primer grado"],
+            "answer": 0
+        },
+        {
+            "question": "¿Cuál es el tratamiento de elección para la fibrilación auricular en un paciente estable hemodinámicamente?",
+            "options": ["Cardioversión eléctrica", "Amiodarona", "Control de la frecuencia con beta bloqueadores", "Ablación por catéter"],
+            "answer": 2
+        },
+        {
+            "question": "En el contexto de un síndrome coronario agudo, ¿cuál de los siguientes fármacos NO debe administrarse de forma sistemática en las primeras horas?",
+            "options": ["Inhibidores de la enzima convertidora de angiotensina (IECA)", "Aspirina", "Nitroglicerina", "Heparina"],
+            "answer": 0
+        },
+        {
+            "question": "¿Cuál es el principal criterio ecocardiográfico para el diagnóstico de la estenosis aórtica severa?",
+            "options": ["Área valvular aórtica < 1 cm²", "Gradiente medio transvalvular > 20 mmHg", "Insuficiencia aórtica asociada", "Presión sistólica pulmonar > 50 mmHg"],
+            "answer": 0
+        },
+        {
+            "question": "¿Qué factor de riesgo es más importante para el desarrollo de una cardiopatía isquémica?",
+            "options": ["Diabetes mellitus", "Hipertensión arterial", "Hipercolesterolemia", "Tabaquismo"],
+            "answer": 3
+        },
+        {
+            "question": "¿Cuál de los siguientes no es un criterio mayor de Framingham para el diagnóstico de insuficiencia cardíaca?",
+            "options": ["Disnea paroxística nocturna", "Edema en miembros inferiores", "Distensión venosa yugular", "Rales crepitantes"],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué complicación es más frecuente en las primeras horas de un infarto agudo de miocardio?",
+            "options": ["Insuficiencia cardíaca", "Ruptura cardíaca", "Pericarditis", "Arritmias ventriculares"],
+            "answer": 3
+        },
+        {
+            "question": "¿Qué marcador es más específico para el diagnóstico de infarto agudo de miocardio?",
+            "options": ["CK-MB", "Troponina I", "Mioglobina", "Lactato deshidrogenasa (LDH)"],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es el fármaco de elección para el tratamiento de la hipertensión en pacientes con insuficiencia cardíaca?",
+            "options": ["IECA", "Diuréticos de asa", "Bloqueadores beta", "Antagonistas de la aldosterona"],
+            "answer": 0
+        },
+        {
+            "question": "¿Qué tipo de miocardiopatía se asocia con mayor frecuencia a la muerte súbita en jóvenes?",
+            "options": ["Miocardiopatía dilatada", "Miocardiopatía hipertrófica", "Miocardiopatía restrictiva", "Miocardiopatía arritmogénica del ventrículo derecho"],
+            "answer": 1
+        },
+        {
+            "question": "En un paciente con insuficiencia mitral severa, ¿cuál es el signo clínico más probable?",
+            "options": ["Pulso paradójico", "Soplo holosistólico en el apex", "Cianosis central", "Soplo diastólico en la base del corazón"],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué fármaco se utiliza en la prueba de esfuerzo farmacológica cuando el ejercicio físico no es posible?",
+            "options": ["Adenosina", "Dobutamina", "Dipiridamol", "Verapamilo"],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es el principal efecto adverso de los anticoagulantes orales directos (DOACs)?",
+            "options": ["Sangrado", "Insuficiencia renal", "Trombosis", "Hepatotoxicidad"],
+            "answer": 0
+        },
+        {
+            "question": "¿Cuál es la arritmia más comúnmente observada en pacientes con enfermedad coronaria?",
+            "options": ["Fibrilación auricular", "Taquicardia ventricular", "Bradicardia sinusal", "Flutter auricular"],
+            "answer": 0
+        },
+        {
+            "question": "¿Qué medicamento está contraindicado en un paciente con insuficiencia cardíaca descompensada?",
+            "options": ["IECA", "Beta bloqueadores", "Diuréticos de asa", "Digoxina"],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es la primera intervención recomendada en un paciente con sospecha de embolia pulmonar masiva?",
+            "options": ["Administrar heparina", "Realizar un ECG", "Realizar un ecocardiograma", "Administrar oxígeno"],
+            "answer": 3
+        },
+        {
+            "question": "En el tratamiento de la insuficiencia cardíaca crónica, ¿cuál de los siguientes fármacos ha demostrado reducir la mortalidad?",
+            "options": ["Digoxina", "Diuréticos", "IECA", "Nitratos"],
+            "answer": 2
+        },
+        {
+            "question": "¿Qué tipo de hipertensión arterial se caracteriza por una presión sistólica elevada con presión diastólica normal?",
+            "options": ["Hipertensión esencial", "Hipertensión sistólica aislada", "Hipertensión maligna", "Hipertensión renovascular"],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es el hallazgo más característico en la insuficiencia tricuspídea crónica?",
+            "options": ["Hepatomegalia pulsátil", "Edema en miembros inferiores", "Hipertensión pulmonar", "Soplo diastólico"],
+            "answer": 0
+        },
+        {
+            "question": "¿Qué fármaco antiarrítmico está contraindicado en pacientes con asma?",
+            "options": ["Amiodarona", "Flecainida", "Sotalol", "Verapamilo"],
+            "answer": 2
+        },
+        {
+            "question": "En la angina de Prinzmetal, ¿cuál es la característica electrocardiográfica durante un episodio de dolor?",
+            "options": ["Elevación del ST", "Depresión del ST", "Ondas T invertidas", "QRS ensanchado"],
+            "answer": 0
+        },
+        {
+            "question": "¿Cuál es la intervención más efectiva para prevenir la recurrencia de endocarditis infecciosa en pacientes de alto riesgo?",
+            "options": ["Anticoagulación crónica", "Profilaxis antibiótica antes de procedimientos invasivos", "Vacunación contra la gripe", "Administración de probióticos"],
+            "answer": 1
+        },
+        {
+            "question": "¿Cuál es el mecanismo principal de acción de la nitroglicerina en la angina de pecho?",
+            "options": ["Disminuye la demanda de oxígeno del miocardio", "Aumenta el flujo sanguíneo coronario", "Disminuye la contractilidad miocárdica", "Reduce la resistencia periférica"],
+            "answer": 0
+        },
+        {
+            "question": "¿Qué signo clínico se observa típicamente en un paciente con taponamiento cardíaco?",
+            "options": ["Aumento de la presión venosa yugular", "Pulso paradójico", "Soplo sistólico", "Hepatomegalia"],
+            "answer": 1
+        },
+        {
+            "question": "En el contexto de una disección aórtica, ¿cuál es el síntoma más común?",
+            "options": ["Dolor torácico agudo irradiado a la espalda", "Disnea súbita", "Síncope", "Parálisis de miembros inferiores"],
+            "answer": 0
+        },
+        {
+            "question": "¿Cuál de las siguientes es la causa más común de muerte súbita en deportistas jóvenes?",
+            "options": ["Miocardiopatía hipertrófica", "Miocardiopatía dilatada", "Estenosis aórtica", "Infarto de miocardio"],
+            "answer": 0
+        },
+        {
+            "question": "¿Cuál es el tratamiento inicial recomendado para la crisis hipertensiva en un paciente con encefalopatía hipertensiva?",
+            "options": ["Labetalol intravenoso", "Nitroprusiato de sodio intravenoso", "Hidralazina oral", "Captopril sublingual"],
+            "answer": 1
+        },
+        {
+            "question": "¿Qué característica es más común en la insuficiencia cardíaca derecha en comparación con la izquierda?",
+            "options": ["Edema periférico", "Disnea de esfuerzo", "Congestión pulmonar", "Ortopnea"],
+            "answer": 0
+        }
+    ]
+}
